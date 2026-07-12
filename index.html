@@ -17,6 +17,7 @@
             <a href="#about">About</a> |
             <a href="#skills">Skills</a> |
             <a href="#projects">Projects</a> |
+            <a href="#education">Education</a> |
             <a href="#contact">Contact</a>
         </nav>
 
@@ -27,6 +28,9 @@
     <section id="home">
         <h1>Welcome</h1>
         <h2>Hello, I'm Kiran Shiwakoti</h2>
+
+        <img src="kiran-photo.jpeg" alt="Photo of Kiran Shiwakoti" width="200">
+
         <p>
             I am a Software Developer who enjoys creating websites and learning
             new technologies.
@@ -38,6 +42,7 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
+
         <p>
             I am passionate about web development and programming. I enjoy
             solving problems and building simple, user-friendly applications.
@@ -117,20 +122,20 @@
 
         <form>
 
-            <label>Full Name:</label><br>
-            <input type="text" name="fullname"><br><br>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br><br>
 
-            <label>Email:</label><br>
-            <input type="email" name="email"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
-            <label>Phone Number:</label><br>
-            <input type="tel" name="phone"><br><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
 
-            <label>Subject:</label><br>
-            <input type="text" name="subject"><br><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject"><br><br>
 
-            <label>Message:</label><br>
-            <textarea name="message" rows="5" cols="40"></textarea><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
 
             <input type="submit" value="Send Message">
             <input type="reset" value="Reset">
