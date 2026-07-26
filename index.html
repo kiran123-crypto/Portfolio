@@ -16,7 +16,9 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
     </nav>
@@ -24,7 +26,7 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <img src="kiran-photo.jpeg" alt="Profile photo of John Doe" width="200">
+            <img src="images/kiran-photo.jpeg" alt="Profile photo of kiran" width="200">
             <p>
                 Hello! I am kiran shiwakoti, a Computer Science student who is learning
                 developing websites and software applications. I enjoy learning
@@ -48,6 +50,25 @@
                 <dt>Operating Systems</dt>
                 <dd>Windows, Linux</dd>
             </dl>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+
+            <div class="slider">
+                <div class="slider-viewport">
+                    <div class="slider-track">
+                        <div class="slide"><img src="images/image 1.jpg" alt="Gallery photo 1"></div>
+                        <div class="slide"><img src="images/image 2.jpg" alt="Gallery photo 2"></div>
+                        <div class="slide"><img src="images/image 3.jpg" alt="Gallery photo 3"></div>
+                    </div>
+
+                    <button class="slider-btn prev" aria-label="Previous slide">&#10094;</button>
+                    <button class="slider-btn next" aria-label="Next slide">&#10095;</button>
+                </div>
+
+                <div class="slider-dots"></div>
+            </div>
         </section>
 
         <section id="projects">
@@ -87,6 +108,37 @@
 
         </section>
 
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">What technologies do you work with?</button>
+                    <div class="accordion-panel">
+                        <p>I mainly work with HTML, CSS, and JavaScript on the front end,
+                           and Python and Java on the back end, with MySQL or PostgreSQL
+                           for storage.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Are you open to internships or freelance work?</button>
+                    <div class="accordion-panel">
+                        <p>Yes! I'm actively looking for internship and freelance
+                           opportunities where I can apply and grow my skills.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Where can I see more of your work?</button>
+                    <div class="accordion-panel">
+                        <p>Check out the Projects section above, or visit my GitHub
+                           profile linked in each project card.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="contact">
             <h2>Contact Me</h2>
 
@@ -115,8 +167,10 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Amrit Kumar. All rights reserved.</p>
+        <p>&copy; 2026 Kiran Shiwakoti. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
